@@ -1833,7 +1833,7 @@ function webViewerInitialized() {
   //var queryString = document.location.search.substring(1);
   //var params = (0, _ui_utils.parseQueryString)(queryString);
   //file = 'file' in params ? params.file : _app_options.AppOptions.get('defaultUrl');
-  file = 'maxwell/docs/paper2.pdf';
+  file = 'docs/paper2.pdf';
   //
   validateFileURL(file);
   var fileInput = document.createElement('input');
